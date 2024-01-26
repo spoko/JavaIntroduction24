@@ -40,6 +40,8 @@ public class Variable {
         System.out.println("-----------------");
         morti.printData();
         System.out.println("-----------------");
+        morti.printDataFormatted();
+        System.out.println("-----------------");
         sharo.printData();
 
     }

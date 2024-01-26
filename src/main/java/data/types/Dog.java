@@ -16,4 +16,8 @@ public class Dog {
         System.out.println("Age is: " + age);
     }
 
+    public void printDataFormatted(){
+        System.out.printf("The name of the dog is %s. It weights %.2f. The dog is %d years old.\n", name, weight, age);
+    }
+
 }

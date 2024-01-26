@@ -15,7 +15,5 @@ public class FirstDemo {
 
         //printing final message
         System.out.println("Hello " + userName + ". Nice to meet you!");
-
-
     }
 }

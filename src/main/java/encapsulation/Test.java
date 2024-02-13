@@ -1,0 +1,36 @@
+package encapsulation;
+
+public class Test {
+    public static void main(String[] args) {
+        Person elena = new Person("Elena", 11);
+        Person alex = new Person("Alex", 4);
+
+        Product coffee = new Product("Coffee", 10);
+        Product tea = new Product("Tea", 2);
+
+        elena.buyProduct(coffee);
+        alex.buyProduct(tea);
+        alex.buyProduct(tea);
+        elena.buyProduct(tea);
+
+        elena.printProducts();
+        alex.printProducts();
+
+        System.out.println("-----------");
+
+        Person mimi = new Person("Mimi", 0);
+        Product juice = new Product("Juice", 2);
+
+        mimi.buyProduct(juice);
+        mimi.printProducts();
+
+        System.out.println("-----------");
+
+        Person petar = new Person("Petar", -3);
+        Product bread = new Product("Bread", 1);
+        //petar.setMoney(200);
+        petar.buyProduct(bread);
+
+
+    }
+}

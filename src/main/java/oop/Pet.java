@@ -76,7 +76,8 @@ public class Pet extends AdditionalPetActions{
         System.out.println(name + " is moving...");
     }
 
-    public void eat(){
+    //this method cannot be overriden
+    public final void eat(){
         System.out.println(name + " is eating");
     }
 

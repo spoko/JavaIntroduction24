@@ -41,8 +41,11 @@ public class Dog extends Pet{
         }
     }
 
+    //polymorphism
     @Override
     public void move() {
         System.out.println(super.getName() + " is walking...");
     }
+
+
 }

@@ -13,7 +13,7 @@ public class RandomDemo {
         int b = random.nextInt(1, 10);
         double angle = random.nextDouble(1, 179);
 
-        System.out.printf("Area of triangle with sides a = %d, b=%d and angle=%.2f is %.2f", a, b, angle,
+        System.out.printf("Area of triangle with sides a = %d, b=%d and angle=%.2f is %.2f\n", a, b, angle,
                 Triangle.calculateAreaOfTriangleByTwoSideAndAngle(a, b, angle));
 
     }

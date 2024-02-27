@@ -13,7 +13,12 @@ public class FirstDemo {
         //defining a variable to store the user input
         String userName = scanner.nextLine();
 
+        //this will print the text in the console
+        System.out.println("Please enter your age:");
+
+        int userAge = scanner.nextInt();
+
         //printing final message
-        System.out.println("Hello " + userName + ". Nice to meet you!");
+        System.out.printf("Hello %s. Nice to meet you! What a wonderful age %d!\n", userName, userAge);
     }
 }

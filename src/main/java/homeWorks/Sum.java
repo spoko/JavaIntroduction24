@@ -1,4 +1,4 @@
-package hw1;
+package homeWorks;
 
 public class Sum {
     public static void main(String[] args) {
